@@ -1,6 +1,5 @@
-input.onButtonPressed(Button.A, function () {
-    basic.showString("Hello!")
-})
+basic.showString("Ciao Mondo")
+basic.showString("Ciao Matteo")
 basic.forever(function () {
 	
 })
