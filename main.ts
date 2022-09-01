@@ -1,8 +1,28 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.Happy)
+    led.stopAnimation()
+    basic.showLeds(`
+        . . . . .
+        . # . # .
+        . . . . .
+        # . . . #
+        . # # # .
+        `)
+    clearMonitor()
 })
+function clearMonitor () {
+    basic.pause(1000)
+    basic.clearScreen()
+}
 input.onButtonPressed(Button.B, function () {
-    basic.showIcon(IconNames.Sad)
+    led.stopAnimation()
+    basic.showLeds(`
+        . . . . .
+        . # . # .
+        . . . . .
+        . # # # .
+        # . . . #
+        `)
+    clearMonitor()
 })
 basic.forever(function () {
 	

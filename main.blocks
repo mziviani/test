@@ -1,1 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="U{;x`,~yFzLeg`nUjezU" x="154" y="-329"></block><block type="device_forever" id="|IaHsE{75Kctm6oX)0pf" x="226" y="-132"></block><block type="device_button_event" id="vRHEh}==kX]Z@H$/}cED" x="318" y="53"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="basic_show_icon" id="o}(Uw:hTA]c1!?6t2coa"><field name="i">IconNames.Happy</field></block></statement></block><block type="device_button_event" id="cqyeK%3Fec)a}HkoRn^U" x="635" y="52"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="basic_show_icon" id=";WV-b^gv?Q,_K^DIe=~y"><field name="i">IconNames.Sad</field></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="U{;x`,~yFzLeg`nUjezU" x="-12" y="-310"></block><block type="device_forever" id="|IaHsE{75Kctm6oX)0pf" x="176" y="-310"></block><block type="device_button_event" id="vRHEh}==kX]Z@H$/}cED" x="-15" y="-192"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_stop_animation" id="~Gmp`vedl5#Hw9s?0$1y"><next><block type="device_show_leds" id="s]2FIIEhF/H-$dwSO`d)"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="function_call" id="yWi:!}T4|LE,qE^v9xQK"><mutation name="clearMonitor" functionid="SHPe(E$(DYtJ=K.%K^4l"></mutation></block></next></block></next></block></statement></block><block type="device_button_event" id="cqyeK%3Fec)a}HkoRn^U" x="285" y="-188"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_stop_animation" id="@xY0fY-s=v1RA-,q-O)%"><next><block type="device_show_leds" id="AYg4(=d^NW?kEY~x;;;I"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="function_call" id="{2H%Z~:TNF?G=:P.T[#."><mutation name="clearMonitor" functionid="SHPe(E$(DYtJ=K.%K^4l"></mutation></block></next></block></next></block></statement></block><block type="function_definition" id="0iGaAp77q)EmwIO52f1Y" x="567" y="-193"><mutation name="clearMonitor" functionid="SHPe(E$(DYtJ=K.%K^4l"></mutation><field name="function_name">clearMonitor</field><statement name="STACK"><block type="device_pause" id="H55wt)d=h%yk6l^FB=JP"><value name="pause"><shadow type="timePicker" id="1_1/lkKU=SIgl1wM].q]"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="3a62F~$iA%@@LIlP{N!n"></block></next></block></statement></block></xml>
